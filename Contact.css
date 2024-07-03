@@ -2,17 +2,12 @@
   background-image: none;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 478px;
-}
-
 .u-section-1 .u-layout-wrap-1 {
   margin-top: 70px;
   margin-bottom: -6px;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 338px;
   background-image: none;
 }
 
@@ -27,7 +22,6 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 338px;
   background-image: none;
 }
 
@@ -49,57 +43,39 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 459px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     margin-bottom: 34px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 279px;
-  }
-
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 279px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 430px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     margin-bottom: 70px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 278px;
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 550px;
   }
 
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 732px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     margin-bottom: 40px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 481px;
   }
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -109,20 +85,25 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 613px;
+   .u-section-1 {
+    min-height: 825px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 70px;
+    margin-top: 29px;
+    margin-bottom: 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 303px;
+    min-height: 294px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-right: auto;
-    margin-left: 0;
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 502px;
   }
 }
